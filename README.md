@@ -1,4 +1,4 @@
-# Chatbase
+# Gitmiss
 
 Realtime chat using GraphQL Live Queries, Next.js and NextAuth.js &mdash; [tutorial](https://grafbase.com/guides/how-to-build-a-real-time-chat-app-with-nextjs-graphql-and-server-sent-events)
 
