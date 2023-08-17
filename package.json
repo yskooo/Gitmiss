@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@apollo/client": "3.7.9",
+    "@date-fns/upgrade": "^1.0.3",
     "@grafbase/apollo-link": "1.1.0",
-    "@types/node": "18.14.5",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
-    "date-fns": "2.30.0",
+    "date-fns": "^2.30.0",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "graphql": "16.6.0",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@types/jsonwebtoken": "9.0.1",
+    "@types/node": "20.5.0",
     "autoprefixer": "10.4.13",
     "postcss": "8.4.21",
     "tailwindcss": "3.2.7"

@@ -2,6 +2,7 @@ import { gql, useMutation } from "@apollo/client";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
 import useSound from "use-sound";
+import { isFriday } from 'date-fns';
 
 const AddNewMessageMutation = gql`
   mutation AddNewMessage($username: String!, $avatar: URL, $body: String!) {

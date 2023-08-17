@@ -4,6 +4,8 @@ import { Header } from "@/components/header";
 import { MessageList } from "@/components/message-list";
 import { NewMessageForm } from "@/components/new-message-form";
 
+import { isFriday } from 'date-fns';
+
 export default function Home() {
   const { data: session, status } = useSession();
 
@@ -21,7 +23,7 @@ export default function Home() {
           </div>
           <div className="p-6 bg-white/5 border-t border-[#363739]">
             <div className="max-w-4xl mx-auto">
-              <NewMessageForm />
+ <NewMessageForm />
             </div>
           </div>
         </>

@@ -4,6 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 import type { Message as IMessage } from "@/components/message";
 import { Message } from "@/components/message";
+import { isFriday } from 'date-fns';
 
 const GetRecentMessagesQuery = gql`
   query GetRecentMessages($last: Int) @live {
@@ -45,7 +46,7 @@ export const MessageList = () => {
   if (loading)
     return (
       <div className="flex items-center justify-center h-full">
-        <p className="text-white">Fetching most recent chat messages.</p>
+        <p className="text-white">Fetching latest chismiss.</p>
       </div>
     );
 
@@ -64,7 +65,7 @@ export const MessageList = () => {
               entry?.target.scrollIntoView({ behavior: "smooth", block: "end" })
             }}
           >
-            Scroll to see latest messages
+            Scroll to latest messages
           </button>
         </div>
       )}

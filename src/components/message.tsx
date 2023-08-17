@@ -1,6 +1,7 @@
 import { formatRelative, formatDistance, differenceInHours } from "date-fns";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
+import { isFriday } from 'date-fns';
 
 export type Message = {
   id: string;
