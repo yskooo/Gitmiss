@@ -45,8 +45,10 @@ export const MessageList = () => {
 
   if (loading)
     return (
-      <div className="flex items-center justify-center h-full">
-        <p className="text-white">Fetching latest chismiss.</p>
+      <div className="flex items-center justify-center h-full bg-gray-900">
+         <p className="text-white text-center p-4 rounded-lg shadow-md">
+           Fetching latest gitmiss.
+          </p>
       </div>
     );
 
